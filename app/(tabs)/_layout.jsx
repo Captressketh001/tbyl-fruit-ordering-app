@@ -14,8 +14,14 @@ const TabLayout = () => {
             headerShown: false
           }}
         />
+        <Stack.Screen 
+          name="add"
+          options={{
+            headerShown: false
+          }}
+        />
       </Stack>
-      {/* <StatusBar backgroundColor="#FFA451" style="light"/> */}
+      {/* <StatusBar backgroundColor="#fff" style="dark"/> */}
     </>
   )
 }
