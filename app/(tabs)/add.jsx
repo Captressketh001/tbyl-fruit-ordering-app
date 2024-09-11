@@ -11,6 +11,9 @@ const AddToCart = () => {
   const goBack = () => {
     router.replace("/home");
   };
+  const addToBasket = () => {
+    router.push("/cart");
+  };
   return (
     <>
       <SafeAreaView className="h-full  bg-secondary box-border">
@@ -52,7 +55,7 @@ const AddToCart = () => {
               <Text className="text-xl font-bgmedium text-primary">
                 One Pack contains:
               </Text>
-              <View className="w-[42%] h-1 bg-secondary" />
+              <View className="w-[45%] h-1 bg-secondary" />
               <View className="flex-row justify-between items-center mt-4">
                 <View className="flex-row items-center gap-4">
                     <Text className="font-bgmedium text-[16px] text-primary">Red Quinoa, Lime, Honey, Blueberries, Strawberries, Mango, Fresh Mint.</Text>
@@ -71,7 +74,7 @@ const AddToCart = () => {
                     <Image source={icons.like} />
                   </View>
                 </View>
-               <CustomButton containerStyles="w-[219px]" title="Add to Basket"/>
+               <CustomButton containerStyles="w-[219px]" textStyles="font-bgmedium text-lg" handlePress={addToBasket} title="Add to Basket"/>
               </View>
             </View>
           </View>

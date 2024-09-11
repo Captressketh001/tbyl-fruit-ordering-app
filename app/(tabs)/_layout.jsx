@@ -20,6 +20,12 @@ const TabLayout = () => {
             headerShown: false
           }}
         />
+        <Stack.Screen 
+          name="cart"
+          options={{
+            headerShown: false
+          }}
+        />
       </Stack>
       {/* <StatusBar backgroundColor="#fff" style="dark"/> */}
     </>
