@@ -26,6 +26,18 @@ const TabLayout = () => {
             headerShown: false
           }}
         />
+        <Stack.Screen 
+          name="complete"
+          options={{
+            headerShown: false
+          }}
+        />
+        <Stack.Screen 
+          name="track"
+          options={{
+            headerShown: false
+          }}
+        />
       </Stack>
       {/* <StatusBar backgroundColor="#fff" style="dark"/> */}
     </>

@@ -15,6 +15,10 @@ import search from "../assets/icons/search.png"
 import naira from "../assets/icons/naira.png"
 import nairaBlack from "../assets/icons/naira-black.png"
 import back from "../assets/icons/back.png"
+import close from "../assets/icons/close.png"
+import lineOne from "../assets/icons/line-1.png"
+import lineTwo from "../assets/icons/line-2.png"
+import threeDots from "../assets/icons/three-dots.png"
 
 export default {
     basket,
@@ -33,5 +37,9 @@ export default {
     naira,
     nairaBlack,
     minusBlack,
-    back
+    back,
+    close,
+    lineOne,
+    lineTwo,
+    threeDots
 }
