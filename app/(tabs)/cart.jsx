@@ -197,6 +197,7 @@ const Cart = () => {
             containerStyles="w-[140px] bg-white border border-secondary"
             textStyles="text-secondary text-lg font-bgmedium"
             title="Complete Order"
+            handlePress={() => router.push('complete')}
           />
         </View>
       </CustomBottomSheet>

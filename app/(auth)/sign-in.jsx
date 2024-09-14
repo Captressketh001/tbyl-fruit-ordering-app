@@ -23,7 +23,7 @@ export default function App() {
               resizeMode="contain"
             />
           </View>
-          <View className="h-2/5 mt-10 px-4">
+          <View className="h-2/5 pt-10 px-4 bg-white">
             <Text className="font-bgmedium text-2xl text-primary">
               What's your first name?
             </Text>
