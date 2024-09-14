@@ -48,10 +48,10 @@ const Home = () => {
         <View className="my-6">
           <View className="px-6 flex-row justify-between items-center">
             <Image source={icons.menu} resizeMode="contain" />
-            <View className="items-center">
+            <TouchableOpacity onPress={() => router.push('cart')} className="items-center">
               <Image source={icons.basket} resizeMode="contain" />
               <Text className="font-bgmedium">My basket</Text>
-            </View>
+            </TouchableOpacity>
           </View>
           <View className="mt-4 px-6">
             <Text className="text-2xl text-primary w-[80%]">

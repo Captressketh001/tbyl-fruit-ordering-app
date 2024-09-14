@@ -7,6 +7,7 @@ import { router } from "expo-router";
 import CustomButton from "../../components/customButton";
 import CustomBottomSheet from "../../components/CustomBottomSheet";
 import FormField from "../../components/FormField";
+import { StatusBar } from "expo-status-bar";
 
 const Cart = () => {
   const goBack = () => {
@@ -22,6 +23,7 @@ const Cart = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isCardPayment, setIsCardPayment] = useState(false);
   return (
+  <>
     <SafeAreaView className="h-full">
       <View className="h-1/5 bg-secondary items-center gap-6 px-4 flex-row">
         <TouchableOpacity
@@ -202,6 +204,8 @@ const Cart = () => {
         </View>
       </CustomBottomSheet>
     </SafeAreaView>
+    <StatusBar backgroundColor="#FFA451" style="dark" />
+    </>
   );
 };
 
